@@ -10,17 +10,23 @@
     </head>
     <body>
         <header>
-            <div class= "logo" alt="main logo"><img src="project_photos/crown_png.png"></img>
+            <div class= "c-logo" alt="main logo" id="logo">
+                <img src="project_photos/crown_png.png"></img>
+                
             </div>
-            <nav class="navbar">
-                <ul class="menu">
+            <nav class="topnav" >
+                <ul class="menu" id="myLinks">
                     
                     <li><a href ="#" class="nav-li">Shop</a></li>
                     <li><a href ="#" class="nav-li">About Us</a></li>
                     <li><a href ="https://www.facebook.com/CrownFloProducts/reviews" class="nav-li">Reviews</a></li>
+                    <li><a class="contact" href="#" ><button class="nav-button">Contact Us</button></a></li>
                 </ul>
             </nav>        
-            <a class="contact" href="#" ><button class="nav-button">Contact Us</button></a>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
         </header>
     
         
@@ -29,7 +35,7 @@
                 <div class="home-1">
                     <h2 class="title">See what your hair routine has been missing.</h2>
                     <p class="sub_title">Choose from our signature oils today.</p>
-                    <a href="" class="button_1">Shop Now</a>
+                    <a href="#" class="button_1">Shop Now</a>
                 </div>
             </div>
         </section>    
@@ -63,8 +69,10 @@
                     
                     <div class="product-details">
                         <p class="item-name">Crown Flo Bulk</p>
-                        <p class="quantity">5 Cases</p>
-                        <p class="item-price">$450</p>
+                        <div>
+                            <p class="quantity">5 Cases</p>
+                            <p class="item-price">$450</p>
+                                    
                     </div>    
                 </div>
 
@@ -79,7 +87,7 @@
 
             </div>    
         </section>
-        <section>
+        <section class="section-4">
             <div class="container-4">  
                 <p class="head-4">Contact Us</p>       
                 <div class="social-links">
